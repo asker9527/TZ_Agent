@@ -1,0 +1,160 @@
+{
+  "planId": "plan-2026-09-24-9f1t4",
+  "createdAt": "2026-09-24T09:15:20.151Z",
+  "amount": 4000,
+  "deployable": 3756,
+  "totalBefore": 4000,
+  "totalAfter": 4000,
+  "classes": [
+    {
+      "key": "cn_broad",
+      "label": "A股宽基",
+      "targetWeight": 45,
+      "tiltedWeight": 38.41,
+      "tiltFactor": 0.7,
+      "valuationPct": 72.1,
+      "currentValue": 0,
+      "currentWeight": 0,
+      "gap": 1536.4,
+      "directed": 1643.14
+    },
+    {
+      "key": "global",
+      "label": "海外QDII",
+      "targetWeight": 20,
+      "tiltedWeight": 24.39,
+      "tiltFactor": 1,
+      "valuationPct": 48.7,
+      "currentValue": 0,
+      "currentWeight": 0,
+      "gap": 975.6,
+      "directed": 1043.38
+    },
+    {
+      "key": "cn_theme",
+      "label": "A股行业/主题",
+      "targetWeight": 15,
+      "tiltedWeight": 12.8,
+      "tiltFactor": 0.7,
+      "valuationPct": 59.1,
+      "currentValue": 0,
+      "currentWeight": 0,
+      "gap": 512,
+      "directed": 547.57
+    },
+    {
+      "key": "bond",
+      "label": "债券",
+      "targetWeight": 10,
+      "tiltedWeight": 12.2,
+      "tiltFactor": 1,
+      "currentValue": 0,
+      "currentWeight": 0,
+      "gap": 488,
+      "directed": 521.9
+    },
+    {
+      "key": "gold",
+      "label": "黄金/商品",
+      "targetWeight": 5,
+      "tiltedWeight": 6.1,
+      "tiltFactor": 1,
+      "currentValue": 0,
+      "currentWeight": 0,
+      "gap": 244,
+      "directed": 0
+    },
+    {
+      "key": "cash",
+      "label": "现金/货基",
+      "targetWeight": 5,
+      "tiltedWeight": 6.1,
+      "tiltFactor": 1,
+      "currentValue": 4000,
+      "currentWeight": 100,
+      "gap": -3756,
+      "directed": 0
+    }
+  ],
+  "lines": [
+    {
+      "code": "000051",
+      "name": "华夏沪深300ETF联接A",
+      "assetClass": "cn_broad",
+      "assetClassLabel": "A股宽基",
+      "amount": 821.57,
+      "nav": 1.731,
+      "estShares": 474.62,
+      "reason": "A股宽基 目标 38.41% (静态 45%, 估值倾斜 ×0.7, 分位 72.1%), 当前 0%",
+      "isNew": true
+    },
+    {
+      "code": "000478",
+      "name": "建信中证500指数增强A",
+      "assetClass": "cn_broad",
+      "assetClassLabel": "A股宽基",
+      "amount": 821.57,
+      "nav": 3.5479,
+      "estShares": 231.57,
+      "reason": "A股宽基 目标 38.41% (静态 45%, 估值倾斜 ×0.7, 分位 72.1%), 当前 0%",
+      "isNew": true
+    },
+    {
+      "code": "270042",
+      "name": "广发纳斯达克100ETF联接人民币(QDII)A",
+      "assetClass": "global",
+      "assetClassLabel": "海外QDII",
+      "amount": 521.69,
+      "nav": 8.4599,
+      "estShares": 61.67,
+      "reason": "海外QDII 目标 24.39% (静态 20%, 估值倾斜 ×1, 分位 48.7%), 当前 0%",
+      "isNew": true
+    },
+    {
+      "code": "012348",
+      "name": "天弘恒生科技ETF联接A",
+      "assetClass": "global",
+      "assetClassLabel": "海外QDII",
+      "amount": 521.69,
+      "nav": 0.5974,
+      "estShares": 873.27,
+      "reason": "海外QDII 目标 24.39% (静态 20%, 估值倾斜 ×1, 分位 48.7%), 当前 0%",
+      "isNew": true
+    },
+    {
+      "code": "001592",
+      "name": "天弘创业板ETF联接A",
+      "assetClass": "cn_theme",
+      "assetClassLabel": "A股行业/主题",
+      "amount": 547.57,
+      "nav": 1.3772,
+      "estShares": 397.6,
+      "reason": "A股行业/主题 目标 12.8% (静态 15%, 估值倾斜 ×0.7, 分位 59.1%), 当前 0%",
+      "isNew": true
+    },
+    {
+      "code": "003376",
+      "name": "广发中债7-10年国开债指数A",
+      "assetClass": "bond",
+      "assetClassLabel": "债券",
+      "amount": 521.9,
+      "nav": 1.3852,
+      "estShares": 376.77,
+      "reason": "债券 目标 12.2% (静态 10%, 估值倾斜 ×1), 当前 0%",
+      "isNew": true
+    }
+  ],
+  "allocated": 3755.99,
+  "unallocated": 244.01,
+  "cashAfter": 244.01,
+  "warnings": [],
+  "notes": [
+    "黄金/商品 可投金额不足 300 元, 本期不建仓, 资金留给其他类别或累积到下期",
+    "A股宽基 无持仓, 启用 000051 + 000478 (华夏沪深300ETF联接A｜成立2009｜126亿｜现费率0.12%｜近1年回撤10.5%。A股核心宽基，费率最低档; 建信中证500指数增强A｜成立2014｜28亿｜现费率0.15%｜近3年年化12.1%｜夏普0.47。中盘卫星仓，与沪深300不重复)",
+    "海外QDII 无持仓, 启用 270042 + 012348 (广发纳斯达克100ETF联接A｜成立2012｜122亿｜现费率0.13%｜近3年年化23.0%｜夏普1.02。海外核心，长期持有选A类; 天弘恒生科技ETF联接A｜成立2021｜44亿｜现费率0.10%｜恒生科技分位37.2%偏低。港股科技备选，近3年弱但估值便宜，分位高于60%时不启用)",
+    "A股行业/主题 无持仓, 启用 001592 (天弘创业板ETF联接A｜成立2015｜11亿｜现费率0.10%｜创业板分位32.8%偏低。成长风格暴露，高波动已计入目标回撤容忍度)",
+    "债券 无持仓, 启用 003376 (广发中债7-10年国开债指数A｜成立2016｜61亿｜现费率0.05%｜近1年回撤0.71%｜政金债无信用风险，长久期在股市下跌时提供对冲)",
+    "本次实际买入 3755.99 元, 未分配 244.01 元留存现金(原因见上方提示)"
+  ],
+  "status": "preview"
+}

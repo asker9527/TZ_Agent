@@ -1,0 +1,72 @@
+{
+  "version": 1,
+  "monthlySalary": null,
+  "monthlyInvestAmount": 4000,
+  "investRatio": 0.4,
+  "payday": 10,
+  "paydayWindowDays": 3,
+  "riskLevel": "aggressive",
+  "targets": {
+    "cn_broad": 0.45,
+    "cn_theme": 0.15,
+    "global": 0.2,
+    "gold": 0.05,
+    "bond": 0.1,
+    "cash": 0.05
+  },
+  "benchmark": {
+    "cn_broad": [
+      "SH000300",
+      "SH000905"
+    ],
+    "cn_theme": [
+      "CSI931087",
+      "SZ399989",
+      "CSI930652"
+    ],
+    "global": [
+      "NDX",
+      "SP500",
+      "HKHSTECH"
+    ],
+    "gold": [],
+    "bond": [],
+    "cash": []
+  },
+  "tilt": {
+    "enabled": true,
+    "bands": [
+      [
+        20,
+        1.4
+      ],
+      [
+        50,
+        1
+      ],
+      [
+        80,
+        0.7
+      ],
+      [
+        100.01,
+        0.4
+      ]
+    ]
+  },
+  "constraints": {
+    "maxSingleFund": 0.25,
+    "minCashRatio": 0.05,
+    "maxStockRatio": 0.95,
+    "avoidChasingPct": 25,
+    "minBuyAmount": 10,
+    "minFundAmount": 300,
+    "maxNewPositions": 3
+  },
+  "rebalance": {
+    "absBand": 0.05,
+    "relBand": 0.25
+  },
+  "name": "TZ",
+  "updatedAt": "2026-09-24T09:15:19.822Z"
+}

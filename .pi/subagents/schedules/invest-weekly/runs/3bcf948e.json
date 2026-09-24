@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "3bcf948e",
+  "scheduleId": "invest-weekly",
+  "plannedAt": "2026-09-24T08:00:45.577Z",
+  "dueReason": "manual",
+  "state": "completed",
+  "startedAt": "2026-09-24T08:00:45.577Z",
+  "asyncId": "03f71bb3-e076-4e78-9dcc-b49cc1ae8b2e",
+  "asyncDir": "C:\\Users\\admin\\AppData\\Local\\Temp\\pi-subagents-user-admin\\async-subagent-runs\\03f71bb3-e076-4e78-9dcc-b49cc1ae8b2e",
+  "completedAt": "2026-09-24T08:02:51.823Z"
+}
