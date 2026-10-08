@@ -8,7 +8,7 @@
     "every": "7d",
     "everyMs": 604800000,
     "anchorAt": "2026-09-26T01:00:00.000Z",
-    "nextRunAt": "2026-09-26T01:00:00.000Z"
+    "nextRunAt": "2026-10-10T01:00:00.000Z"
   },
   "target": {
     "workflowScript": "return runs.run(\"weekly-review\", { agent: \"invest-manager\", task: \"生成投资周报。严格按 skill invest-manager 的《流程 C：周度复盘》执行，所有数字必须来自工具，禁止凭记忆填写。步骤：1) invest_portfolio action=status；2) invest_market mode=valuation（全表）；3) 读取 invest/reports/ 目录下最近一份周报，对比估值分位变化并写出变化量；4) 检查再平衡提示与基金红线（规模缩水/经理更换/回撤超限）；5) 报告写入 invest/reports/<今天>-weekly.md；6) invest_notify 推送：title=投资周报 <今天>，markdown=报告正文，filePath=报告文件的绝对路径。附加任务：先用 invest_portfolio action=profile 读取 payday 与 paydayWindowDays，若今天落在 payday±paydayWindowDays 窗口内，则在同一份报告里追加「本月投资计划」章节，按《流程 B：月度计划》执行到 invest_plan action=preview 为止，列出完整买入清单和所有警告/提示，并提醒用户回复确认后才 commit——绝对不要自己执行 commit。若不在窗口内则不追加该章节。若当前无持仓或没有任何规则被触发，正文第一句必须写「本期无需动作」并说明原因，不要编造观点凑篇幅。\" });"
@@ -17,6 +17,6 @@
   "catchUp": "latest",
   "paused": false,
   "createdAt": "2026-09-24T07:37:34.398Z",
-  "updatedAt": "2026-09-24T08:14:18.802Z",
-  "lastRunId": "b24035d3"
+  "updatedAt": "2026-10-08T12:32:39.812Z",
+  "lastRunId": "55d213c4"
 }

@@ -9,6 +9,10 @@
 # 内容可由 invest_* 工具随时重取，纳入版本控制只会淹没真实变更。
 invest/cache/
 
+# 一次性研究材料：原始抓取件（HTML），可由 URL 重取。
+# 结论性证据仍保留在 invest/research/sources/SOURCES.md，受版本控制。
+invest/research/sources/*.html
+
 # 定时任务的运行日志：只追加、无决策价值
 .pi/subagents/schedules/*/runs/
 .pi/subagents/schedules/*/events.jsonl

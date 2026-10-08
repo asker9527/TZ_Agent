@@ -1,8 +1,22 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-24T09:15:19.824Z",
+  "updatedAt": "2026-09-28T01:08:11.210Z",
   "holdings": [],
   "cash": 4000,
   "lastNav": {},
-  "snapshots": []
+  "snapshots": [
+    {
+      "date": "2026-09-28",
+      "total": 4000,
+      "cash": 4000,
+      "byClass": {
+        "cn_broad": 0,
+        "global": 0,
+        "cn_theme": 0,
+        "bond": 0,
+        "gold": 0,
+        "cash": 4000
+      }
+    }
+  ]
 }
